@@ -6,6 +6,7 @@ import BackToTop from "./components/BackToTop";
 import About from "./pages/About";
 import Courses from "./pages/Courses";
 import NotFound from "./pages/NotFound";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/404" element={<NotFound />}/>
+        <Route path="contact" element={<Contact />}/>
       </Routes>
 
       <div className="container-fluid p-0 ">
