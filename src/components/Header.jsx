@@ -109,8 +109,8 @@ const Header = () => {
           </NavLink>
         </div>
 
-        <NavLink to="/join" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">
-          Join Now <i className="fa fa-arrow-right ms-3"></i>
+        <NavLink to="/login" className="btn btn-primary py-4 px-lg-5 d-none d-lg-block">
+          Login Now <i className="fa fa-arrow-right ms-3"></i>
         </NavLink>
       </div>
     </nav>

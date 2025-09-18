@@ -70,3 +70,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 ### npm install react-slick slick-carousel
 instal react-click slick-carousel to use Carousel in React not use JQuery
+
+### `npm install react-hook-form`
+install react hook form

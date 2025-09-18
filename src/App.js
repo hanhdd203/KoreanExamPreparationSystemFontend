@@ -7,6 +7,8 @@ import About from "./pages/About";
 import Courses from "./pages/Courses";
 import NotFound from "./pages/NotFound";
 import Contact from "./pages/Contact";
+import Login from './pages/Login'
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/404" element={<NotFound />}/>
         <Route path="contact" element={<Contact />}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/register" element={<Register/>}/>
       </Routes>
 
       <div className="container-fluid p-0 ">
